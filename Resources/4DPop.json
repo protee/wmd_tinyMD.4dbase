@@ -1,0 +1,10 @@
+{
+  "name": "wmd_tinyMD",
+  "media": "pictures/ogPop.png",
+  "helptip": "wmd_tinyMD",
+  "handler": "_wmd_tinyMD",
+  "tools": {
+    "method": "wmd_4DPop_v20"
+  }
+}
+

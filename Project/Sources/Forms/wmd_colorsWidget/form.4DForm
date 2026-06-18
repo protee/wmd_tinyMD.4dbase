@@ -1,0 +1,126 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDoubleClick",
+		"onMouseMove",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"bkg": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 230,
+					"height": 390,
+					"strokeWidth": 0,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"visibility": "visible"
+				}
+			}
+		},
+		{
+			"objects": {
+				"canvas": {
+					"type": "input",
+					"top": 59,
+					"left": 5,
+					"width": 220,
+					"height": 327,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onMouseUp",
+						"onClick",
+						"onDoubleClick",
+						"onMouseMove"
+					]
+				},
+				"bt_sf": {
+					"type": "pictureButton",
+					"top": 31,
+					"left": 3,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_toggle_SF0.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bt_menu": {
+					"type": "pictureButton",
+					"top": 5,
+					"left": 3,
+					"width": 24,
+					"height": 24,
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_menu.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"o_RGBsample": {
+					"type": "input",
+					"top": 6,
+					"left": 34,
+					"width": 190,
+					"height": 45,
+					"sizingX": "fixed",
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"geometryStamp": 116
+}

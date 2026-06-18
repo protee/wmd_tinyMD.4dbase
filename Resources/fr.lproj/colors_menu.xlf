@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--    Translation file for 4D products.   Copyright (C) 2007 4D SAS.   This file is distributed under the same license as the 4D product package.-->
+<xliff version="1.0">
+   <file datatype="x-STR#" original="Undefined" product-version="2017" source-language="fr" target-language="fr">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+ 
+      <group resname="Sub Menus Colors">
+            <trans-unit id="24" resname="rgbPickerStroke">
+               <source>RGB color picker stroke</source>
+               <target>RGB choix couleur stylo</target>
+            </trans-unit>
+            <trans-unit id="24" resname="rgbPickerFill">
+               <source>RGB color picker fill</source>
+               <target>RGB choix couleur fond</target>
+            </trans-unit>
+
+            <trans-unit id="18" resname="SubColor">
+               <source>Color...</source>
+               <target>Couleur...</target>
+            </trans-unit>
+            <trans-unit id="18" resname="SubColors">
+               <source>Colors...</source>
+               <target>Couleurs...</target>
+            </trans-unit>
+            <trans-unit id="20" resname="SubColorsInv">
+               <source>Colors inverse...</source>
+               <target>Couleurs inverse...</target>
+            </trans-unit>
+            <trans-unit id="21" resname="SubColorsBW">
+               <source>Black and White</source>
+               <target>Noir et Blanc</target>
+            </trans-unit>
+            <trans-unit id="22" resname="SubColorsGW">
+               <source>Grey and White</source>
+               <target>Gris et Blanc</target>
+            </trans-unit>
+            <trans-unit id="23" resname="SubColorsWB">
+               <source>White and Black</source>
+               <target>Blanc et Noir</target>
+            </trans-unit>
+            <trans-unit id="24" resname="SubColorsRandom">
+               <source>Random</source>
+               <target>Hasard</target>
+            </trans-unit>
+            <trans-unit id="25" resname="SubColorsRandomInv">
+               <source>Random inverse</source>
+               <target>Hasard inverse</target>
+            </trans-unit>
+            <trans-unit id="27" resname="SubColorsStroke">
+               <source>All Stroke</source>
+               <target>Etendre stylo</target>
+            </trans-unit>
+            <trans-unit id="30" resname="SubColorsFill">
+               <source>All Fill</source>
+               <target>Etendre fond</target>
+            </trans-unit>
+            <trans-unit id="30" resname="SubColorsExchange">
+               <source>Exchange</source>
+               <target>Permuter</target>
+            </trans-unit>
+            <trans-unit id="30" resname="SubColorsCopy">
+               <source>Copy colors…</source>
+               <target>Copier couleurs…</target>
+            </trans-unit>
+            <trans-unit id="30" resname="SubColorsPaste">
+               <source>Paste colors…</source>
+               <target>Coller couleurs…</target>
+            </trans-unit>
+        </group>
+
+     <group resname="Sub Menus Color">
+            <trans-unit id="24" resname="rgbPicker">
+               <source>RGB color picker</source>
+               <target>RGB choix couleur</target>
+            </trans-unit>
+              <trans-unit id="21" resname="SubColorB">
+               <source>Black</source>
+               <target>Noir</target>
+            </trans-unit>
+            <trans-unit id="22" resname="SubColorG">
+               <source>Grey</source>
+               <target>Gris</target>
+            </trans-unit>
+            <trans-unit id="23" resname="SubColorW">
+               <source>White</source>
+               <target>Blanc</target>
+            </trans-unit>
+            <trans-unit id="25" resname="SubColorRandom">
+               <source>Random</source>
+               <target>Hasard</target>
+            </trans-unit>
+              <trans-unit id="30" resname="SubColorCopy">
+               <source>Copy color...</source>
+               <target>Copier couleur...</target>
+            </trans-unit>
+            <trans-unit id="30" resname="SubColorPaste">
+               <source>Paste color…</source>
+               <target>Coller couleur…</target>
+            </trans-unit>
+  </group>
+
+
+   <group resname="Buttons help">
+              <trans-unit id="100" resname="btnColorsSF">
+               <source>Edit Stroke or Fill (space)</source>
+               <target>Editer Stylo ou Fond (espace)</target>
+            </trans-unit>
+            <trans-unit id="101" resname="btnCancel">
+               <source>Cancel</source>
+               <target>Annuler</target>
+            </trans-unit>
+            <trans-unit id="102" resname="btnOk">
+               <source>Valid</source>
+               <target>Valider</target>
+            </trans-unit>
+   </group>
+
+  <group resname="Colors Def">
+            <trans-unit id="200" resname="Stroke">
+               <source>Stroke</source>
+               <target>Stylo</target>
+            </trans-unit>
+            <trans-unit id="201" resname="Fill">
+               <source>Fill</source>
+               <target>Fond</target>
+            </trans-unit>
+             <trans-unit id="202" resname="StrokeFill">
+               <source>StrokeFill</source>
+               <target>Stylo&amp;Fond</target>
+            </trans-unit>
+             <trans-unit id="202" resname="ToStroke">
+               <source>To Stroke</source>
+               <target>Vers Stylo</target>
+            </trans-unit>
+             <trans-unit id="202" resname="ToFill">
+               <source>To Fill</source>
+               <target>Vers Fond</target>
+            </trans-unit>
+           <trans-unit id="203" resname="Space">
+               <source>Space</source>
+               <target>Espace</target>
+            </trans-unit>
+           <trans-unit id="203" resname="Spaces">
+               <source>Spaces</source>
+               <target>Espaces</target>
+            </trans-unit>
+           <trans-unit id="204" resname="Actions">
+               <source>Actions</source>
+               <target>Actions</target>
+            </trans-unit>
+           <trans-unit id="205" resname="iconSmall">
+               <source>Icon small</source>
+               <target>Icône petite</target>
+            </trans-unit>
+           <trans-unit id="206" resname="iconRegular">
+               <source>Icon regular</source>
+               <target>Icône moyenne</target>
+            </trans-unit>
+           <trans-unit id="207" resname="iconMenu">
+               <source>Icon menu</source>
+               <target>Icône menu</target>
+            </trans-unit>
+   </group>
+
+      </body>
+   </file>
+</xliff>

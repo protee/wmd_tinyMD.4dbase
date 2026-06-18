@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+  
+  
+
+<!--
+    Created with 4DPop Constants Editor
+  -->
+  
+  <file datatype="x-4DK#" original="x-undefined" source-language="x-none" target-language="x-none">
+    
+    <header>
+      <prop-group name="4DPop Constant editor">
+        <prop prop-type="version">??</prop>
+      </prop-group>
+    </header>
+    
+    <body>
+      
+<!--groups' labels-->
+      <group resname="themes">
+        <trans-unit id="thm_1" resname="82FFFA6467E846168A3AE9EBC240F522" translate="no">
+          <source>color</source>
+        </trans-unit>
+        <trans-unit id="thm_2" resname="5A63CF5ACD3C404EBE8776237C70C3EE" translate="no">
+          <source>colors</source>
+        </trans-unit>
+        <trans-unit id="thm_3" resname="1DCE68B2EF9D4C65A05305EB843F361C" translate="no">
+          <source>colors_idx</source>
+        </trans-unit>
+        <trans-unit id="thm_4" resname="C5C197FD8EE14C5C8EE0A13FC54E612F" translate="no">
+          <source>Others</source>
+        </trans-unit>
+      </group>
+      
+<!--constants-->
+      <group d4:groupName="82FFFA6467E846168A3AE9EBC240F522" restype="x-4DK#">
+        <trans-unit d4:value="243:L" id="k_1">
+          <source>k_MDcolorBlack</source>
+        </trans-unit>
+        <trans-unit d4:value="244:L" id="k_2">
+          <source>k_MDcolorWhite</source>
+        </trans-unit>
+        <trans-unit d4:value="255:L" id="k_3">
+          <source>k_MDcolorTransparent</source>
+        </trans-unit>
+        <trans-unit d4:value="239:L" id="k_4">
+          <source>k_MDcolorGrey</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="5A63CF5ACD3C404EBE8776237C70C3EE" restype="x-4DK#">
+        <trans-unit d4:value="62719:L" id="k_5">
+          <source>k_MDcolorsNil</source>
+        </trans-unit>
+        <trans-unit d4:value="62452:L" id="k_6">
+          <source>k_MDcolorsBW</source>
+        </trans-unit>
+        <trans-unit d4:value="62447:L" id="k_7">
+          <source>k_MDcolorsBG</source>
+        </trans-unit>
+        <trans-unit d4:value="61427:L" id="k_8">
+          <source>k_MDcolorsGB</source>
+        </trans-unit>
+        <trans-unit d4:value="49078:L" id="k_9">
+          <source>k_MDcolorsAppPrimary</source>
+        </trans-unit>
+        <trans-unit d4:value="41883:L" id="k_10">
+          <source>k_MDcolorsAppSecondary</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="1DCE68B2EF9D4C65A05305EB843F361C" restype="x-4DK#">
+        <trans-unit d4:value="0:L" id="k_11">
+          <source>k_MDcolorsIdx_red</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="k_12">
+          <source>k_MDcolorsIdx_pink</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="k_13">
+          <source>k_MDcolorsIdx_purple</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="k_14">
+          <source>k_MDcolorsIdx_deepPurple</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="k_15">
+          <source>k_MDcolorsIdx_indigo</source>
+        </trans-unit>
+        <trans-unit d4:value="5:L" id="k_16">
+          <source>k_MDcolorsIdx_blue</source>
+        </trans-unit>
+        <trans-unit d4:value="6:L" id="k_17">
+          <source>k_MDcolorsIdx_lightBlue</source>
+        </trans-unit>
+        <trans-unit d4:value="7:L" id="k_18">
+          <source>k_MDcolorsIdx_cyan</source>
+        </trans-unit>
+        <trans-unit d4:value="8:L" id="k_19">
+          <source>k_MDcolorsIdx_teal</source>
+        </trans-unit>
+        <trans-unit d4:value="9:L" id="k_20">
+          <source>k_MDcolorsIdx_green</source>
+        </trans-unit>
+        <trans-unit d4:value="10:L" id="k_21">
+          <source>k_MDcolorsIdx_lightGreen</source>
+        </trans-unit>
+        <trans-unit d4:value="11:L" id="k_22">
+          <source>k_MDcolorsIdx_lime</source>
+        </trans-unit>
+        <trans-unit d4:value="12:L" id="k_23">
+          <source>k_MDcolorsIdx_yellow</source>
+        </trans-unit>
+        <trans-unit d4:value="13:L" id="k_24">
+          <source>k_MDcolorsIdx_amber</source>
+        </trans-unit>
+        <trans-unit d4:value="14:L" id="k_25">
+          <source>k_MDcolorsIdx_orange</source>
+        </trans-unit>
+        <trans-unit d4:value="15:L" id="k_26">
+          <source>k_MDcolorsIdx_deepOrange</source>
+        </trans-unit>
+        <trans-unit d4:value="16:L" id="k_27">
+          <source>k_MDcolorsIdx_brown</source>
+        </trans-unit>
+        <trans-unit d4:value="17:L" id="k_28">
+          <source>k_MDcolorsIdx_grey</source>
+        </trans-unit>
+        <trans-unit d4:value="18:L" id="k_29">
+          <source>k_MDcolorsIdx_blueGrey</source>
+        </trans-unit>
+        <trans-unit d4:value="19:L" id="k_30">
+          <source>k_MDcolorsIdx_white</source>
+        </trans-unit>
+      </group>
+      <group d4:groupName="C5C197FD8EE14C5C8EE0A13FC54E612F" restype="x-4DK#">
+        <trans-unit d4:value="-20:L" id="k_31">
+          <source>k_OnDataChange</source>
+        </trans-unit>
+      </group>
+    </body>
+    
+  </file>
+  
+
+</xliff>

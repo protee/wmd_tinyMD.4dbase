@@ -1,0 +1,41 @@
+.Boutons {
+	font-family: Arial Unicode MS;
+	font-size: 12px;
+}
+
+.Champs_10 {
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.Champs_12 {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.Commentaires {
+	font-family: Arial Unicode MS;
+	font-size: 10px;
+}
+
+.Commentaires_TM {
+	font-family: Arial Unicode MS;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.default {
+	font-family: Lucida Grande;
+	font-size: 13px;
+}
+
+.Par_défaut {
+	font-family: Arial Unicode MS;
+	font-size: 9px;
+}
+
+.System_Petit {
+	font-family: System Font;
+	font-size: 11px;
+}
+

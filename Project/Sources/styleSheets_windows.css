@@ -1,0 +1,41 @@
+.Boutons {
+	font-family: Arial;
+	font-size: 11px;
+}
+
+.Champs_10 {
+	font-family: Arial;
+	font-size: 9px;
+}
+
+.Champs_12 {
+	font-family: Arial;
+	font-size: 11px;
+}
+
+.Commentaires {
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.Commentaires_TM {
+	font-family: Arial;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.default {
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+
+.Par_défaut {
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.System_Petit {
+	font-family: Segoe UI;
+	font-size: 11px;
+}
+

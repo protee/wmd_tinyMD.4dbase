@@ -1,0 +1,18 @@
+{
+	"btn_menuColors": ":xliff:menuColors",
+	"btn_cancel": ":xliff:btnCancel",
+	"btn_accept": ":xliff:btnAccept",
+	"g_dateFuture": ":xliff:dateFuture",
+	"g_datePast": ":xliff:datePast",
+	"btn_stroke": ":xliff:btnStroke",
+	"btn_fill": ":xliff:btnFill",
+	"g_datesPop": ":xliff:datesPop",
+	"g_datePop": ":xliff:datePop",
+	"btn_time": ":xliff:btnTime",
+	"g_year": ":xliff:yearPop",
+	"btn_methodGen": "Generate comments based on method parsing.",
+	"g_timesPop": ":xliff:timesPop",
+	"g_timePop": ":xliff:timePop",
+	"btn_copy": "Copy into Pasteboard",
+	"Sans titre": ""
+}

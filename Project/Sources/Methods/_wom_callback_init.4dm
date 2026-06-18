@@ -1,0 +1,21 @@
+//%attributes = {"lang":"en","invisible":true}
+// *****
+// *
+// Method: _wom_callback_init
+// Olivier Grimbert — Protée sarl — 16/08/2024 22:52:24
+//
+// Description:
+//
+// Date       | Who | Comment
+// 28/12/2022 | OG | Initial version Protée sarl
+// 16/08/2024 | OG  | Updated
+// *
+// *****
+
+#DECLARE($vJ_dbf : Object; $vJ_build_options : Object)->$isOk : Boolean
+$isOk:=True:C214
+
+app_init()  // Initialize values
+x__vJ_overload(wmd__storage_prefs(); $vJ_build_options; "t_name"; "t_version")
+
+

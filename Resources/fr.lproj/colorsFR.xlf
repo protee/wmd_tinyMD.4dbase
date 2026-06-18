@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--    Translation file for 4D products.   Copyright (C) 2007 4D SAS.   This file is distributed under the same license as the 4D product package.-->
+<xliff version="1.0">
+   <file datatype="x-STR#" original="Undefined" product-version="2017" source-language="fr" target-language="fr">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+                  <group resname="Colors">
+            <trans-unit id="24" resname="color_red">
+               <source>red</source>
+               <target>rouge</target>
+            </trans-unit>
+            <trans-unit id="24" resname="color_pink">
+               <source>pink</source>
+               <target>rose</target>
+            </trans-unit>
+            <trans-unit id="18" resname="color_purple">
+               <source>purple</source>
+               <target>violet</target>
+            </trans-unit>
+            <trans-unit id="20" resname="color_deep_purple">
+               <source>deep purple</source>
+               <target>violet foncé</target>
+            </trans-unit>
+            <trans-unit id="21" resname="color_indigo">
+               <source>indigo</source>
+               <target>indigo</target>
+            </trans-unit>
+            <trans-unit id="22" resname="color_blue">
+               <source>blue</source>
+               <target>bleu</target>
+            </trans-unit>
+            <trans-unit id="23" resname="color_light_blue">
+               <source>light blue</source>
+               <target>bleu clair</target>
+            </trans-unit>
+            <trans-unit id="24" resname="color_cyan">
+               <source>cyan</source>
+               <target>cyan</target>
+            </trans-unit>
+            <trans-unit id="25" resname="color_teal">
+               <source>teal</source>
+               <target>sarcelle</target>
+            </trans-unit>
+            <trans-unit id="27" resname="color_green">
+               <source>green</source>
+               <target>vert</target>
+            </trans-unit>
+            <trans-unit id="30" resname="color_light_green">
+               <source>vert</source>
+               <target>vert clair</target>
+            </trans-unit>
+            <trans-unit id="30" resname="color_lime">
+               <source>lime</source>
+               <target>citron</target>
+            </trans-unit>
+            <trans-unit id="30" resname="color_yellow">
+               <source>yellow</source>
+               <target>jaune</target>
+            </trans-unit>
+           <trans-unit id="30" resname="color_amber">
+               <source>amber</source>
+               <target>ambre</target>
+            </trans-unit>
+           <trans-unit id="30" resname="color_orange">
+               <source>orange</source>
+               <target>orange</target>
+            </trans-unit>
+           <trans-unit id="30" resname="color_deep_orange">
+                <source>deep orange</source>
+               <target>orange foncé</target>
+            </trans-unit>
+           <trans-unit id="30" resname="color_brown">
+                <source>brown</source>
+               <target>brun</target>
+            </trans-unit>
+           <trans-unit id="30" resname="color_grey">
+                <source>grey</source>
+               <target>gris</target>
+            </trans-unit>
+           <trans-unit id="30" resname="color_blue_grey">
+                <source>blue grey</source>
+               <target>gris bleu</target>
+           </trans-unit>
+           <trans-unit id="30" resname="color_white">
+               <source>white</source>
+               <target>blanc</target>
+            </trans-unit>
+           <trans-unit id="30" resname="color_none">
+               <source>transparent</source>
+               <target>transparent</target>
+            </trans-unit>
+         </group>
+
+         <group resname="Menus">
+            <trans-unit id="1" resname="menu_personalized">
+               <source>Personalized…</source>
+               <target>Personnalisé…</target>
+            </trans-unit>
+            <trans-unit id="1" resname="menu_picker">
+               <source>Colour picker</source>
+               <target>Palette couleurs</target>
+            </trans-unit>
+            <trans-unit id="2" resname="menu_md_picker">
+               <source>Colour HS picker</source>
+               <target>Palette HS picker</target>
+            </trans-unit>
+            <trans-unit id="3" resname="menu_popup">
+               <source>Popup menu</source>
+               <target>Popup menu</target>
+            </trans-unit>
+            <trans-unit id="4" resname="menu_hpopup">
+               <source>Popup hierarchical menu</source>
+               <target>Popup menu hiérarchique</target>
+            </trans-unit>
+         </group>
+
+      </body>
+   </file>
+</xliff>

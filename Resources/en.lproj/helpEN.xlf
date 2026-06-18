@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--    Translation file for 4D products.   Copyright (C) 2007 4D SAS.   This file is distributed under the same license as the 4D product package.-->
+<xliff version="1.0">
+   <file datatype="x-STR#" original="Undefined" product-version="2017" source-language="en" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+      <group resname="Help tips">
+            <trans-unit id="24" resname="btnCancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="24" resname="btnAccept">
+               <source>Accept</source>
+               <target>Accept</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

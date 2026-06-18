@@ -1,0 +1,72 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"canvas": {
+					"type": "input",
+					"top": 1,
+					"left": 1,
+					"width": 35,
+					"height": 35,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"value": {
+					"type": "input",
+					"top": 7,
+					"left": 7,
+					"width": 8,
+					"height": 7,
+					"dataSourceTypeHint": "number",
+					"fontFamily": "System Font",
+					"fontSize": 10,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 13,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

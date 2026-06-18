@@ -1,0 +1,110 @@
+{
+	"destination": "detailScreen",
+	"shared": false,
+	"rightMargin": 6,
+	"bottomMargin": 8,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onDeactivate",
+		"onCloseBox",
+		"onTimer",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"wmd_colors": {
+					"type": "subform",
+					"top": 6,
+					"left": 6,
+					"width": 290,
+					"height": 440,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "object",
+					"detailForm": "wmd_colorsWidget",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "dotted",
+					"method": "ObjectMethods/wmd_colors.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"btn_v_cancel": {
+					"type": "pictureButton",
+					"top": 454,
+					"left": 247,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"sizingY": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/btn_cancel"
+					},
+					"shortcutKey": "[Esc]",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/btn_v_cancel.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_v_accept": {
+					"type": "pictureButton",
+					"top": 454,
+					"left": 271,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"sizingY": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/btn_accept"
+					},
+					"shortcutKey": "[Return]",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_accept.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/btn_v_accept.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 114,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed"
+}
