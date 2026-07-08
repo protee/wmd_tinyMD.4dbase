@@ -1,27 +1,25 @@
+<!-- Title and badges -->
 <div align="center">
 
-<!-- Header with left text and right logo -->
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-  <div style="text-align: left;">
-    <strong style="font-size: 1.2em;">Color, simple.</strong><br>
-    <strong style="font-size: 1em;">Mantra:</strong> Google indexed purity.<br>
-    <strong style="font-size: 1em;">Tagline:</strong> Where MD space: 256 hues x 2 stroke & fill = one integer.
-  </div>
-  <div>
-    <img src="https://www.protee.org/images/wmd_tinyMD/wmd_tinyMD.png" alt="wmd_tinyMD Logo" width="120" style="border-radius: 12px;">
-  </div>
-</div>
-
-<!-- Title and badges -->
 # wmd_tinyMD
 
 [![4D Component](https://img.shields.io/badge/4D-Component-blue)](#)
+[![4D v21+](https://img.shields.io/badge/4D-v21%2B-brightgreen)](#)
 [![4DPop Compatible](https://img.shields.io/badge/4DPop-Compatible-orange)](#)
 [![License: Free](https://img.shields.io/badge/License-Free-green.svg)](#license)
 [![Platform: macOS & Windows](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey)](#)
-[![4D v21+](https://img.shields.io/badge/4D-v21%2B-brightgreen)](#)
 
 </div>
+
+---
+
+<img src="https://www.protee.org/images/wmd_tinyMD/wmd_tinyMD.png" alt="wmd_tinyMD Logo" width="120" align="right">
+
+<strong style="font-size:1.2em">Color, simple.</strong><br>
+<strong>Mantra:</strong> Google indexed purity.<br>
+<strong>Tagline:</strong> Where MD space: 256 hues x 2 stroke & fill = one integer.
+
+<br clear="both">
 
 ## Overview
 
