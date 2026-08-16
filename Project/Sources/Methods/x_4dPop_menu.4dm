@@ -69,20 +69,20 @@ Case of
 		// *****
 		
 		For each ($vJ_menu; $vC_aj_menu)
+			$vT_label:=$vJ_menu.t_label
 			$vT_menu:=$vJ_menu.t_menu
-			If ($vT_menu="")
+			$is_separator:=($vT_label="")
+			$vT_label:=$is_separator ? "-" : $vT_label
+			If ($is_separator)
 				APPEND MENU ITEM:C411($vT_refMenu; "-")
 				
 			Else 
-				$vT_icon:=$vT_menu
-				//$vT_translated:=x_get_localized(k_rsct_menu; $vT_app+"_"+$vT_menu)
-				$vT_translated:=$vT_app+"_"+$vT_menu
 				$is_valid:=$vJ_menu.is_valid
 				$c4Fu_method:=$vJ_menu.fu_method
 				If ($c4Fu_method#Null:C1517)
 					$c4Fu_method.call(Null:C1517; $vT_refMenu; $vJ_menu)
 				Else 
-					APPEND MENU ITEM:C411($vT_refMenu; $vT_translated; *)
+					APPEND MENU ITEM:C411($vT_refMenu; $vT_label; *)
 					SET MENU ITEM PARAMETER:C1004($vT_refMenu; -1; $vT_menu)
 					SET MENU ITEM ICON:C984($vT_refMenu; -1; $vT_path_icon+$vT_menu+k_png_ext)
 					If ($vT_value_menu=$vT_menu)
@@ -105,7 +105,7 @@ Case of
 				End if 
 			Else 
 				$isOk:=False:C215
-				wox_sounds_play_beep()
+				cs:C1710.wox.SOUNDS.me.play_beep()
 			End if 
 		End if 
 		

@@ -19,7 +19,7 @@ $is_toAttach:=($vT_refMenu#"")
 
 $vJ_prefs:=wmd__storage_prefs()
 $vT_app:=$vJ_prefs.t_app
-//$vT_header:=$vT_header#"" ? $vT_header : x_get_localized(k_rsct_menu; $vT_app+"_actions")
+$vT_header:=$vT_header#"" ? $vT_header : x_get_localized(k_rsct_menu; $vT_app+"_actions")
 $vT_header:=$vT_header#"" ? $vT_header : $vT_app+"_actions"
 $vT_refMenu_answer:=$is_toAttach && $is_inline ? $vT_refMenu : Create menu:C408()
 x_header_menu($vT_refMenu_answer; $vT_header)
@@ -33,8 +33,8 @@ For each ($vT_menu; $vC_at_menu)
 		APPEND MENU ITEM:C411($vT_refMenu_answer; "-")
 	Else 
 		$vT_icon:=$vT_menu
-		//$vT_translated:=x_get_localized(k_rsct_menu; $vT_app+"_"+$vT_menu)
-		$vT_translated:=$vT_app+"_"+$vT_menu
+		$vT_translated:=x_get_localized(k_rsct_menu; $vT_app+"_"+$vT_menu)
+		//$vT_translated:=$vT_app+"_"+$vT_menu
 		APPEND MENU ITEM:C411($vT_refMenu_answer; $vT_translated; *)
 		SET MENU ITEM PARAMETER:C1004($vT_refMenu_answer; -1; $vT_prefix+$vT_menu)
 		SET MENU ITEM ICON:C984($vT_refMenu_answer; -1; $vT_path_menu+$vT_icon+k_png_ext)

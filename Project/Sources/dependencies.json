@@ -3,7 +3,7 @@
 	"dependencies": {
 		"wox_Xlibrary": {
 			"github": "protee/wox_Xlibrary",
-			"version": "latest"
+			"version": "~21.1.00"
 		},
 		"4D SVG": {
 			"github": "4d/4D-SVG",

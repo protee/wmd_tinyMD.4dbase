@@ -1,0 +1,2242 @@
+{
+	"_method_": {
+		"wmd__storage_stuff": {
+			"Syntax": "**wmd__storage_stuff**()->vJ_stuff : Object",
+			"Params": [
+				[
+					"vJ_stuff",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_html": {
+			"Syntax": "**wmd_md_color_to_html**( *vL_color* : Integer; *is_prefix* : Boolean; *is_transparent* : Boolean )->vT_color : Text",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"is_prefix",
+					"Boolean",
+					"->"
+				],
+				[
+					"is_transparent",
+					"Boolean",
+					"->"
+				],
+				[
+					"vT_color",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_initRegister": {
+			"Syntax": "**wmd_initRegister**( *vT_host_name* : Text; *vT_serial* : Text; *is_send* : Boolean )->is_serial_ok : Boolean",
+			"Params": [
+				[
+					"vT_host_name",
+					"Text",
+					"->"
+				],
+				[
+					"vT_serial",
+					"Text",
+					"->"
+				],
+				[
+					"is_send",
+					"Boolean",
+					"->"
+				],
+				[
+					"is_serial_ok",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_from_popup": {
+			"Syntax": "**wmd_md_color_from_popup**( *vL_popup* : Integer )->idx_color : Integer",
+			"Params": [
+				[
+					"vL_popup",
+					"Integer",
+					"->"
+				],
+				[
+					"idx_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_shape_get": {
+			"Syntax": "**wmd_md_shape_get**( *vL_width* : Integer; *vL_height* : Integer; *vL_colors* : Integer; *vL_shape* : Integer; *vL_stroke* : Integer )->vO_picture : Picture",
+			"Params": [
+				[
+					"vL_width",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_height",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_shape",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_stroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vO_picture",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_popColors": {
+			"Syntax": "**wmd_popColors**() : Variant",
+			"Params": [
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_rgb": {
+			"Syntax": "**wmd_md_color_to_rgb**( *vL_color* : Integer; *p2* : Boolean )->vL_color_rgb : Integer",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"p2",
+					"Boolean",
+					"->"
+				],
+				[
+					"vL_color_rgb",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_edit": {
+			"Syntax": "**wmd_md_colors_edit**( *vP_vL_colors* : Pointer; *is_sf* : Boolean )->isOk : Boolean",
+			"Params": [
+				[
+					"vP_vL_colors",
+					"Pointer",
+					"->"
+				],
+				[
+					"is_sf",
+					"Boolean",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_row_from_name": {
+			"Syntax": "**wmd_md_color_row_from_name**( *vT_name* : Text; *vL_inex_idx* : Integer )->vL_color_idx : Integer",
+			"Params": [
+				[
+					"vT_name",
+					"Text",
+					"->"
+				],
+				[
+					"vL_inex_idx",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color_idx",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_widgets_mng": {
+			"Syntax": "**wmd_widgets_mng**() : Variant",
+			"Params": [
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_desaturate": {
+			"Syntax": "**wmd_rgb_desaturate**( *vL_rgb* : Integer )->vL_answer : Integer",
+			"Params": [
+				[
+					"vL_rgb",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_answer",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_form": {
+			"Syntax": "**wmd_md_colors_form**( *vJ_form* : Object )->isOk : Boolean",
+			"Params": [
+				[
+					"vJ_form",
+					"Object",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_shape_get_lb": {
+			"Syntax": "**wmd_md_shape_get_lb**( *vP_LB* : Pointer; *vP_LB_column* : Pointer; *vL_colors* : Integer; *vL_shape* : Integer; *vL_stroke* : Integer )->vO_picture : Picture",
+			"Params": [
+				[
+					"vP_LB",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_LB_column",
+					"Pointer",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_shape",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_stroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vO_picture",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_from_name": {
+			"Syntax": "**wmd_md_color_from_name**( *vT_name* : Text; *vL_offset* : Integer )->vL_color : Integer",
+			"Params": [
+				[
+					"vT_name",
+					"Text",
+					"->"
+				],
+				[
+					"vL_offset",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_from_r_g_b": {
+			"Syntax": "**wmd_md_color_from_r_g_b**( *vL_red* : Integer; *vL_green* : Integer; *vL_blue* : Integer )->vL_color_idx : Integer",
+			"Params": [
+				[
+					"vL_red",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_green",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_blue",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color_idx",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_svg_pattern_empty": {
+			"Syntax": "**wmd_svg_pattern_empty**( *vT_svg_root* : Text; *vT_patt_name* : Text )->vT_svg_pattern : Text",
+			"Params": [
+				[
+					"vT_svg_root",
+					"Text",
+					"->"
+				],
+				[
+					"vT_patt_name",
+					"Text",
+					"->"
+				],
+				[
+					"vT_svg_pattern",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_random": {
+			"Syntax": "**wmd_md_colors_random**( *vL_offsetStroke* : Integer; *vL_offsetFill* : Integer )->vL_colors : Integer",
+			"Params": [
+				[
+					"vL_offsetStroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_offsetFill",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_to_html": {
+			"Syntax": "**wmd_rgb_to_html**( *vL_rgb* : Integer; *is_prefix* : Boolean; *is_short* : Boolean )->vT_color : Text",
+			"Params": [
+				[
+					"vL_rgb",
+					"Integer",
+					"->"
+				],
+				[
+					"is_prefix",
+					"Boolean",
+					"->"
+				],
+				[
+					"is_short",
+					"Boolean",
+					"->"
+				],
+				[
+					"vT_color",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_svg_pattern_picture": {
+			"Syntax": "**wmd_svg_pattern_picture**( *vP_canvas* : Pointer; *vL_pattern* : Integer; *vT_stroke_svg* : Text; *vT_fill_svg* : Text; *vL_rxy* : Integer; *vL_stroke* : Integer; *vL_opacity* : Integer )->vO_picture : Picture",
+			"Params": [
+				[
+					"vP_canvas",
+					"Pointer",
+					"->"
+				],
+				[
+					"vL_pattern",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_stroke_svg",
+					"Text",
+					"->"
+				],
+				[
+					"vT_fill_svg",
+					"Text",
+					"->"
+				],
+				[
+					"vL_rxy",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_stroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_opacity",
+					"Integer",
+					"->"
+				],
+				[
+					"vO_picture",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_from_rgb": {
+			"Syntax": "**wmd_md_color_from_rgb**( *vL_color_rgb* : Integer )->vL_color : Integer",
+			"Params": [
+				[
+					"vL_color_rgb",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_rgb_tr": {
+			"Syntax": "**wmd_md_color_to_rgb_tr**( *vL_color* : Integer )->vL_color_rgb : Integer",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color_rgb",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_hmenu": {
+			"Syntax": "**wmd_md_colors_hmenu**( *vP_color* : Pointer )->isOk : Boolean",
+			"Params": [
+				[
+					"vP_color",
+					"Pointer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_sp_color_add": {
+			"Syntax": "**wmd_sp_color_add**( *vL_color* : Integer; *vL_offset* : Integer )->vL_color_out : Integer",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_offset",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color_out",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_to_html_safe": {
+			"Syntax": "**wmd_rgb_to_html_safe**( *vL_rgb* : Integer )->vL_SafeColor : Integer",
+			"Params": [
+				[
+					"vL_rgb",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_SafeColor",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_to_r_g_b": {
+			"Syntax": "**wmd_rgb_to_r_g_b**( *vL_color* : Integer; *vP_ColorR* : Pointer; *vP_ColorV* : Pointer; *vP_ColorB* : Pointer )",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vP_ColorR",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_ColorV",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_ColorB",
+					"Pointer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_from_text": {
+			"Syntax": "**wmd_md_color_from_text**( *vT_txt* : Text )->vL_color : Integer",
+			"Params": [
+				[
+					"vT_txt",
+					"Text",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_s": {
+			"Syntax": "**wmd_md_colors_to_s**( *vL_colors_in* : Integer )->vL_colors : Integer",
+			"Params": [
+				[
+					"vL_colors_in",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_from_svg": {
+			"Syntax": "**wmd_rgb_from_svg**( *vT_color_svg* : Text; *is_fill* : Boolean )->vL_color : Integer",
+			"Params": [
+				[
+					"vT_color_svg",
+					"Text",
+					"->"
+				],
+				[
+					"is_fill",
+					"Boolean",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_get_icnm": {
+			"Syntax": "**wmd_md_color_get_icnm**( *vL_color* : Integer; *is_null* : Boolean )->vO_icn : Picture",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"is_null",
+					"Boolean",
+					"->"
+				],
+				[
+					"vO_icn",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_from_name": {
+			"Syntax": "**wmd_md_colors_from_name**( *vT_name* : Text; *vL_strokeOffset* : Integer; *vL_fillOffset* : Integer; *vR_coef* : Real )->vL_colors : Integer",
+			"Params": [
+				[
+					"vT_name",
+					"Text",
+					"->"
+				],
+				[
+					"vL_strokeOffset",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_fillOffset",
+					"Integer",
+					"->"
+				],
+				[
+					"vR_coef",
+					"Real",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_svg": {
+			"Syntax": "**wmd_md_colors_to_svg**( *vL_colors* : Integer; *vP_stroke* : Pointer; *vP_fill* : Pointer; *vL_kind* : Integer )",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vP_stroke",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_fill",
+					"Pointer",
+					"->"
+				],
+				[
+					"vL_kind",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_rgb_f_tr": {
+			"Syntax": "**wmd_md_colors_to_rgb_f_tr**( *vL_colors* : Integer )->vL_color_rgb : Integer",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color_rgb",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_isWhite": {
+			"Syntax": "**wmd_md_color_isWhite**( *vL_color* : Integer )->isOk : Boolean",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd__prefs_get_c4Fo": {
+			"Syntax": "**wmd__prefs_get_c4Fo**( *is_root* : Boolean )->vJ_path : Object",
+			"Params": [
+				[
+					"is_root",
+					"Boolean",
+					"->"
+				],
+				[
+					"vJ_path",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_text": {
+			"Syntax": "**wmd_md_color_to_text**( *vL_color* : Integer )->vT_colorRef : Text",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_colorRef",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_menu": {
+			"Syntax": "**wmd_md_colors_menu**( *vP_color* : Pointer )->isOk : Boolean",
+			"Params": [
+				[
+					"vP_color",
+					"Pointer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_get_icnx": {
+			"Syntax": "**wmd_md_color_get_icnx**( *vL_color* : Integer; *is_null* : Boolean; *vT_type* : Text )->vO_icn : Picture",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"is_null",
+					"Boolean",
+					"->"
+				],
+				[
+					"vT_type",
+					"Text",
+					"->"
+				],
+				[
+					"vO_icn",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_f": {
+			"Syntax": "**wmd_md_colors_to_f**( *vL_colors_in* : Integer )->vL_colors : Integer",
+			"Params": [
+				[
+					"vL_colors_in",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_from_html": {
+			"Syntax": "**wmd_md_color_from_html**( *vT_web* : Text )->vL_color : Integer",
+			"Params": [
+				[
+					"vT_web",
+					"Text",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_from_r_g_b_to_svg": {
+			"Syntax": "**wmd_rgb_from_r_g_b_to_svg**( *vL_red* : Integer; *vL_green* : Integer; *vL_blue* : Integer; *vT_none* : Text )->vT_ColourRGB : Text",
+			"Params": [
+				[
+					"vL_red",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_green",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_blue",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_none",
+					"Text",
+					"->"
+				],
+				[
+					"vT_ColourRGB",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_menu_create": {
+			"Syntax": "**wmd_md_color_menu_create**( *vL_color* : Integer; *vT_prefix* : Text; *vT_subMenu_name* : Text; *vT_refMenu* : Text )->vT_refMenu_colour : Text",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_prefix",
+					"Text",
+					"->"
+				],
+				[
+					"vT_subMenu_name",
+					"Text",
+					"->"
+				],
+				[
+					"vT_refMenu",
+					"Text",
+					"->"
+				],
+				[
+					"vT_refMenu_colour",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_isWhite_for": {
+			"Syntax": "**wmd_md_color_isWhite_for**( *vL_fill* : Integer )->isStrokeWhite : Boolean",
+			"Params": [
+				[
+					"vL_fill",
+					"Integer",
+					"->"
+				],
+				[
+					"isStrokeWhite",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_to_svg": {
+			"Syntax": "**wmd_rgb_to_svg**( *vL_rgb* : Integer; *vL_kind* : Integer )->vT_color : Text",
+			"Params": [
+				[
+					"vL_rgb",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_kind",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_color",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd__prefs_get_c4Fi": {
+			"Syntax": "**wmd__prefs_get_c4Fi**( *vT_prefs* : Text; *is_root* : Boolean )->c4Fi_prefs : 4D.File",
+			"Params": [
+				[
+					"vT_prefs",
+					"Text",
+					"->"
+				],
+				[
+					"is_root",
+					"Boolean",
+					"->"
+				],
+				[
+					"c4Fi_prefs",
+					"4D.File",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_s_for_f": {
+			"Syntax": "**wmd_md_color_s_for_f**( *vL_fill* : Integer )->vL_stroke : Integer",
+			"Params": [
+				[
+					"vL_fill",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_stroke",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_rgb_tr": {
+			"Syntax": "**wmd_md_colors_to_rgb_tr**( *vL_colors* : Integer; *vP_vL_stroke_rgb* : Pointer; *vP_vL_fill_rgb* : Pointer; *is_invert* : Boolean )",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vP_vL_stroke_rgb",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_vL_fill_rgb",
+					"Pointer",
+					"->"
+				],
+				[
+					"is_invert",
+					"Boolean",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_to_wb": {
+			"Syntax": "**wmd_rgb_to_wb**( *vL_color_rgb* : Integer )->vL_answer_rgb : Integer",
+			"Params": [
+				[
+					"vL_color_rgb",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_answer_rgb",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_name": {
+			"Syntax": "**wmd_md_color_to_name**( *vL_color* : Integer; *vJ_space_md* : Object )->vT_color_name : Text",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vJ_space_md",
+					"Object",
+					"->"
+				],
+				[
+					"vT_color_name",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_from_html": {
+			"Syntax": "**wmd_rgb_from_html**( *vT_web* : Text )->vL_color_rgb : Integer",
+			"Params": [
+				[
+					"vT_web",
+					"Text",
+					"->"
+				],
+				[
+					"vL_color_rgb",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_get_icn": {
+			"Syntax": "**wmd_md_color_get_icn**( *vL_color* : Integer; *is_null* : Boolean )->vO_icn : Picture",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"is_null",
+					"Boolean",
+					"->"
+				],
+				[
+					"vO_icn",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_infos": {
+			"Syntax": "**wmd_md_color_to_infos**( *vL_color* : Integer; *is_rgb* : Boolean )->vT_color_infos : Text",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"is_rgb",
+					"Boolean",
+					"->"
+				],
+				[
+					"vT_color_infos",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_get_icns": {
+			"Syntax": "**wmd_md_color_get_icns**( *vL_color* : Integer; *is_null* : Boolean )->vO_icn : Picture",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"is_null",
+					"Boolean",
+					"->"
+				],
+				[
+					"vO_icn",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_hmenu_create": {
+			"Syntax": "**wmd_md_color_hmenu_create**( *vL_color* : Integer; *vT_prefix* : Text; *vT_subMenu_name* : Text; *vT_refMenu* : Text )->vT_refMenu_colour : Text",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_prefix",
+					"Text",
+					"->"
+				],
+				[
+					"vT_subMenu_name",
+					"Text",
+					"->"
+				],
+				[
+					"vT_refMenu",
+					"Text",
+					"->"
+				],
+				[
+					"vT_refMenu_colour",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_inverse": {
+			"Syntax": "**wmd_md_colors_inverse**( *vL_colors* : Integer; *is_inverse* : Boolean )->vL_colors_out : Integer",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"is_inverse",
+					"Boolean",
+					"->"
+				],
+				[
+					"vL_colors_out",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_from_rowCol": {
+			"Syntax": "**wmd_md_color_from_rowCol**( *vL_row* : Integer; *vL_column* : Integer; *vL_space* : Integer )->vL_index : Integer",
+			"Params": [
+				[
+					"vL_row",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_column",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_space",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_index",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_html": {
+			"Syntax": "**wmd_md_colors_to_html**( *vL_colors* : Integer; *vP_MDcolorStroke* : Pointer; *vP_MDcolorFill* : Pointer; *is_prefix* : Boolean; *is_transparent* : Boolean )",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vP_MDcolorStroke",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_MDcolorFill",
+					"Pointer",
+					"->"
+				],
+				[
+					"is_prefix",
+					"Boolean",
+					"->"
+				],
+				[
+					"is_transparent",
+					"Boolean",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd__storage_widgets": {
+			"Syntax": "**wmd__storage_widgets**( *vT_widget* : Text )->vJ_widgets : Object",
+			"Params": [
+				[
+					"vT_widget",
+					"Text",
+					"->"
+				],
+				[
+					"vJ_widgets",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd__storage_prefs": {
+			"Syntax": "**wmd__storage_prefs**()->vJ_prefs : Object",
+			"Params": [
+				[
+					"vJ_prefs",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_SET_MENU_ITEM_ICON": {
+			"Syntax": "**wmd_SET_MENU_ITEM_ICON**( *vT_refMenu* : Text; *vL_item* : Integer; *vT_pathFile* : Text )",
+			"Params": [
+				[
+					"vT_refMenu",
+					"Text",
+					"->"
+				],
+				[
+					"vL_item",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_pathFile",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_space_get": {
+			"Syntax": "**wmd_md_space_get**( *vL_space* : Integer )->vJ_space_md : Object",
+			"Params": [
+				[
+					"vL_space",
+					"Integer",
+					"->"
+				],
+				[
+					"vJ_space_md",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_svg_patterns_get": {
+			"Syntax": "**wmd_svg_patterns_get**()->vC_patterns : Collection",
+			"Params": [
+				[
+					"vC_patterns",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_add": {
+			"Syntax": "**wmd_md_colors_add**( *vL_colors* : Integer; *vL_offsetStroke* : Integer; *vL_offsetFill* : Integer )->vL_colors_out : Integer",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_offsetStroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_offsetFill",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_colors_out",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_svg_patterns": {
+			"Syntax": "**wmd_svg_patterns**( *vT_svg_root* : Text; *vT_patt_name* : Text; *vL_pattern* : Integer; *vT_stroke_color* : Text; *vT_fill_color* : Text; *vL_size* : Integer )->vT_svg_pattern : Text",
+			"Params": [
+				[
+					"vT_svg_root",
+					"Text",
+					"->"
+				],
+				[
+					"vT_patt_name",
+					"Text",
+					"->"
+				],
+				[
+					"vL_pattern",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_stroke_color",
+					"Text",
+					"->"
+				],
+				[
+					"vT_fill_color",
+					"Text",
+					"->"
+				],
+				[
+					"vL_size",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_svg_pattern",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_popup": {
+			"Syntax": "**wmd_md_color_to_popup**( *vL_color* : Integer )->vL_popup : Integer",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_popup",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_random": {
+			"Syntax": "**wmd_md_color_random**( *vL_offsetStroke* : Integer )->vL_color : Integer",
+			"Params": [
+				[
+					"vL_offsetStroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_shape_toggle": {
+			"Syntax": "**wmd_md_shape_toggle**( *is_value* : Boolean; *vL_colorsRow* : Integer; *vL_shape* : Integer; *vL_size* : Integer )->vO_picture : Picture",
+			"Params": [
+				[
+					"is_value",
+					"Boolean",
+					"->"
+				],
+				[
+					"vL_colorsRow",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_shape",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_size",
+					"Integer",
+					"->"
+				],
+				[
+					"vO_picture",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_SET_MENU_ITEM_icnm": {
+			"Syntax": "**wmd_SET_MENU_ITEM_icnm**( *vT_refMenu* : Text; *vL_item* : Integer; *vL_color* : Integer; *is_null* : Boolean )",
+			"Params": [
+				[
+					"vT_refMenu",
+					"Text",
+					"->"
+				],
+				[
+					"vL_item",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"is_null",
+					"Boolean",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_rgb": {
+			"Syntax": "**wmd_md_colors_to_rgb**( *vL_colors* : Integer; *vP_vL_stroke_rgb* : Pointer; *vP_vL_fill_rgb* : Pointer; *is_invert* : Boolean )",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vP_vL_stroke_rgb",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_vL_fill_rgb",
+					"Pointer",
+					"->"
+				],
+				[
+					"is_invert",
+					"Boolean",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_from_row": {
+			"Syntax": "**wmd_md_color_from_row**( *vL_row* : Integer; *vL_offset* : Integer; *vR_coef* : Real )->vL_color : Integer",
+			"Params": [
+				[
+					"vL_row",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_offset",
+					"Integer",
+					"->"
+				],
+				[
+					"vR_coef",
+					"Real",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_from_sf": {
+			"Syntax": "**wmd_md_colors_from_sf**( *vL_MDcolorStroke* : Integer; *vL_MDcolorFill* : Integer )->vL_color : Integer",
+			"Params": [
+				[
+					"vL_MDcolorStroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_MDcolorFill",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_r_g_b": {
+			"Syntax": "**wmd_md_color_to_r_g_b**( *vL_color* : Integer; *vP_ColorR* : Pointer; *vP_ColorV* : Pointer; *vP_ColorB* : Pointer )",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vP_ColorR",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_ColorV",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_ColorB",
+					"Pointer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd__options_menu": {
+			"Syntax": "**wmd__options_menu**( *vP_is_popup* : Pointer )->isOk : Boolean",
+			"Params": [
+				[
+					"vP_is_popup",
+					"Pointer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_svg_object": {
+			"Syntax": "**wmd_svg_object**( *vT_svg_root* : Text; *vL_shape* : Integer; *vR_cx* : Real; *vR_cy* : Real; *vR_radius_w* : Real; *vR_radius_h* : Real; *vT_color_stroke* : Text; *vT_color_fill* : Text; *vL_stroke* : Integer; *vL_opacity* : Integer; *vL_rx* : Integer; *vL_ry* : Integer; *p13* : Integer; *p14* : Integer )->vT_svg_object : Text",
+			"Params": [
+				[
+					"vT_svg_root",
+					"Text",
+					"->"
+				],
+				[
+					"vL_shape",
+					"Integer",
+					"->"
+				],
+				[
+					"vR_cx",
+					"Real",
+					"->"
+				],
+				[
+					"vR_cy",
+					"Real",
+					"->"
+				],
+				[
+					"vR_radius_w",
+					"Real",
+					"->"
+				],
+				[
+					"vR_radius_h",
+					"Real",
+					"->"
+				],
+				[
+					"vT_color_stroke",
+					"Text",
+					"->"
+				],
+				[
+					"vT_color_fill",
+					"Text",
+					"->"
+				],
+				[
+					"vL_stroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_opacity",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_rx",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_ry",
+					"Integer",
+					"->"
+				],
+				[
+					"p13",
+					"Integer",
+					"->"
+				],
+				[
+					"p14",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_svg_object",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_rgb_s": {
+			"Syntax": "**wmd_md_colors_to_rgb_s**( *vL_colors* : Integer )->vL_color_rgb : Integer",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color_rgb",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_rgb_f": {
+			"Syntax": "**wmd_md_colors_to_rgb_f**( *vL_colors* : Integer )->vL_color_rgb : Integer",
+			"Params": [
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color_rgb",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_isBlack": {
+			"Syntax": "**wmd_md_color_isBlack**( *vL_color* : Integer )->isOk : Boolean",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_shape_get_object": {
+			"Syntax": "**wmd_md_shape_get_object**( *vP_object* : Pointer; *vL_colors* : Integer; *vL_shape* : Integer; *vL_stroke* : Integer )->vO_picture : Picture",
+			"Params": [
+				[
+					"vP_object",
+					"Pointer",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_shape",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_stroke",
+					"Integer",
+					"->"
+				],
+				[
+					"vO_picture",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_isGrey": {
+			"Syntax": "**wmd_md_color_isGrey**( *vL_color* : Integer )->isOk : Boolean",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd__mode_menu_create": {
+			"Syntax": "**wmd__mode_menu_create**( *vL_mode* : Integer; *vT_prefix* : Text; *vT_subMenu_name* : Text; *vT_refMenu* : Text )->vT_refMenu_mode : Text",
+			"Params": [
+				[
+					"vL_mode",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_prefix",
+					"Text",
+					"->"
+				],
+				[
+					"vT_subMenu_name",
+					"Text",
+					"->"
+				],
+				[
+					"vT_refMenu",
+					"Text",
+					"->"
+				],
+				[
+					"vT_refMenu_mode",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd__storage_space_md": {
+			"Syntax": "**wmd__storage_space_md**()->vJ_space_md : Object",
+			"Params": [
+				[
+					"vJ_space_md",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_rowCol": {
+			"Syntax": "**wmd_md_color_to_rowCol**( *vL_color* : Integer; *vP_vL_row* : Pointer; *vP_vL_column* : Pointer )->isOk : Boolean",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vP_vL_row",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_vL_column",
+					"Pointer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_s_for_f": {
+			"Syntax": "**wmd_md_colors_s_for_f**( *vL_fill* : Integer )->vL_colors : Integer",
+			"Params": [
+				[
+					"vL_fill",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_4dPop_onDrop": {
+			"Syntax": "**wmd_4dPop_onDrop**() : Variant",
+			"Params": [
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_isTransparent": {
+			"Syntax": "**wmd_md_color_isTransparent**( *vL_color* : Integer )->isOk : Boolean",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_isWhiteFor": {
+			"Syntax": "**wmd_rgb_isWhiteFor**( *vL_colorRGB* : Integer )->isStrokeWhite : Boolean",
+			"Params": [
+				[
+					"vL_colorRGB",
+					"Integer",
+					"->"
+				],
+				[
+					"isStrokeWhite",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_to_svg": {
+			"Syntax": "**wmd_md_color_to_svg**( *vL_color* : Integer; *vL_kind* : Integer )->vT_color : Text",
+			"Params": [
+				[
+					"vL_color",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_kind",
+					"Integer",
+					"->"
+				],
+				[
+					"vT_color",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_hmenu": {
+			"Syntax": "**wmd_md_color_hmenu**( *vP_color* : Pointer )->isOk : Boolean",
+			"Params": [
+				[
+					"vP_color",
+					"Pointer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_to_sf": {
+			"Syntax": "**wmd_md_colors_to_sf**( *vL_colors_in* : Integer; *vP_stroke_color* : Pointer; *vP_fill_color* : Pointer; *is_invert* : Boolean )",
+			"Params": [
+				[
+					"vL_colors_in",
+					"Integer",
+					"->"
+				],
+				[
+					"vP_stroke_color",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_fill_color",
+					"Pointer",
+					"->"
+				],
+				[
+					"is_invert",
+					"Boolean",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_rgb_from_r_g_b": {
+			"Syntax": "**wmd_rgb_from_r_g_b**( *vL_colorR* : Integer; *vL_colorG* : Integer; *vL_colorB* : Integer )->vL_color_rgb : Integer",
+			"Params": [
+				[
+					"vL_colorR",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_colorG",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_colorB",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_color_rgb",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_colors_from_row": {
+			"Syntax": "**wmd_md_colors_from_row**( *idx* : Integer; *vL_strokeOffset* : Integer; *vL_fillOffset* : Integer; *vR_coef* : Real )->vL_colors : Integer",
+			"Params": [
+				[
+					"idx",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_strokeOffset",
+					"Integer",
+					"->"
+				],
+				[
+					"vL_fillOffset",
+					"Integer",
+					"->"
+				],
+				[
+					"vR_coef",
+					"Real",
+					"->"
+				],
+				[
+					"vL_colors",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_md_color_menu": {
+			"Syntax": "**wmd_md_color_menu**( *vP_color* : Pointer )->isOk : Boolean",
+			"Params": [
+				[
+					"vP_color",
+					"Pointer",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"wmd_4dPop": {
+			"Syntax": "**wmd_4dPop**( *vP_4DPop* : Pointer )",
+			"Params": [
+				[
+					"vP_4DPop",
+					"Pointer",
+					"->"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"cs.wmd": {
+		"_wox_menu": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"_WIDGETS": {
+			"new()": {
+				"Syntax": "**.new**( *vT_widget* : Text )",
+				"Params": [
+					[
+						"vT_widget",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_popColors_form": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"_wmd_colors": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"_wmd_colorsWidget": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		}
+	},
+	"_wox_menu": {
+		"doMenu()": {
+			"Syntax": "**.doMenu**( *vT_answer* : Text )->isOk : Boolean",
+			"Params": [
+				[
+					"vT_answer",
+					"Text",
+					"->"
+				],
+				[
+					"isOk",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getMenu()": {
+			"Syntax": "**.getMenu**( *vT_prefix* : Text; *vT_refMenu* : Text; *is_inline* : Boolean )->vT_refMenu_answer : Text",
+			"Params": [
+				[
+					"vT_prefix",
+					"Text",
+					"->"
+				],
+				[
+					"vT_refMenu",
+					"Text",
+					"->"
+				],
+				[
+					"is_inline",
+					"Boolean",
+					"->"
+				],
+				[
+					"vT_refMenu_answer",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"_WIDGETS": {
+		"bind_to()": {
+			"Syntax": "**.bind_to**( *vT_property* : Text; *vJ_value* : Object )",
+			"Params": [
+				[
+					"vT_property",
+					"Text",
+					"->"
+				],
+				[
+					"vJ_value",
+					"Object",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"bind_to_c4E()": {
+			"Syntax": "**.bind_to_c4E**( *vT_property* : Text; *vV_default* : Variant )",
+			"Params": [
+				[
+					"vT_property",
+					"Text",
+					"->"
+				],
+				[
+					"vV_default",
+					"Variant",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"resize()": {
+			"Syntax": "**.resize**( *vT_widget* : Text )",
+			"Params": [
+				[
+					"vT_widget",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"set_widget_name()": {
+			"Syntax": "**.set_widget_name**( *vT_widget* : Text )",
+			"Params": [
+				[
+					"vT_widget",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"get_object_wh()": {
+			"Syntax": "**.get_object_wh**( *vT_object* : Text; *vP_width* : Pointer; *vP_height* : Pointer; *vT_widget* : Text )",
+			"Params": [
+				[
+					"vT_object",
+					"Text",
+					"->"
+				],
+				[
+					"vP_width",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_height",
+					"Pointer",
+					"->"
+				],
+				[
+					"vT_widget",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"unload()": {
+			"Syntax": "**.unload**( *vT_widget* : Text )",
+			"Params": [
+				[
+					"vT_widget",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"redraw()": {
+			"Syntax": "**.redraw**( *vT_widget* : Text )",
+			"Params": [
+				[
+					"vT_widget",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"get_canvas_wh()": {
+			"Syntax": "**.get_canvas_wh**( *vP_width* : Pointer; *vP_height* : Pointer; *vT_widget* : Text )",
+			"Params": [
+				[
+					"vP_width",
+					"Pointer",
+					"->"
+				],
+				[
+					"vP_height",
+					"Pointer",
+					"->"
+				],
+				[
+					"vT_widget",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"load()": {
+			"Syntax": "**.load**( *vT_widget* : Text )",
+			"Params": [
+				[
+					"vT_widget",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"bind_to_c4E_vJ()": {
+			"Syntax": "**.bind_to_c4E_vJ**( *vT_field* : Text; *vJ_default* : Object )",
+			"Params": [
+				[
+					"vT_field",
+					"Text",
+					"->"
+				],
+				[
+					"vJ_default",
+					"Object",
+					"->"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"_popColors_form": {},
+	"_wmd_colors": {
+		"_inheritedFrom_": "_WIDGETS"
+	},
+	"_wmd_colorsWidget": {
+		"_inheritedFrom_": "_WIDGETS"
+	}
+}

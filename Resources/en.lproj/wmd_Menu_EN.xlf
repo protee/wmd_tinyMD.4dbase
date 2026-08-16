@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+<file datatype="x-STR#" original="undefined" source-language="en" target-language="en">
+<header>
+<prop-group name="Xliff-Editor.4dbase">
+<prop prop-type="version">1.0</prop>
+</prop-group>
+</header>
+<body>
+<group resname="Menu">
+<trans-unit id="BE07E2BE8ABB4E3A973A52CE3196B0AB" resname="menu_wmd_actions">
+<source>Actions</source>
+<target>Actions</target>
+</trans-unit>
+<trans-unit id="7BD7A28A6278478C937AD5F7C6234037" resname="menu_wmd_popColors">
+<source>Colors MD manager</source>
+<target>Colors MD manager</target>
+</trans-unit>
+<trans-unit id="6F65A7CE58694D12AEEF3EF18C33ED59" resname="menu_wmd_widgets_mng">
+<source>Widgets – Demo</source>
+<target>Widgets – Demo</target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

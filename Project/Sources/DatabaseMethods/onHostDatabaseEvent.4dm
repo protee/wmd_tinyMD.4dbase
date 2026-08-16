@@ -19,8 +19,8 @@ Case of
 		wmd_initRegister()
 		
 		
-		//: ($vL_event_code=On after host database startup)
-		//wok_init()
+	: ($vL_event_code=On after host database startup:K74:4)
+		wok_splashes_display()
 		
 		
 		//: ($vL_event_code=On before host database exit)

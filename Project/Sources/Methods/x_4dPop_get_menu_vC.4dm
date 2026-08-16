@@ -13,6 +13,6 @@
 
 #DECLARE($is_in_palette : Boolean)->$vC_aj_menu : Collection
 $vC_aj_menu:=New collection:C1472
-$vC_aj_menu.push(x_4dPop_get_menu_item(True:C214; "popColors"))
-$vC_aj_menu.push(x_4dPop_get_menu_item(True:C214; "widgets_mng"))
+$vC_aj_menu.push(x_4dPop_get_menu_item(True:C214; "Colors MD manager"; "popColors"))
+$vC_aj_menu.push(x_4dPop_get_menu_item(True:C214; "Widgets – Demo"; "widgets_mng"))
 

@@ -2,6 +2,57 @@
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="wmd_tinyMD" uuid="6EBD11579CF240EDA599574128E01A0A" collation_locale="fr">
 	<schema name="DEFAULT_SCHEMA"/>
+	<table name="WOD_TRANSLATIONS" uuid="0E19472CC88644D998A79E3A33B09380" id="1">
+		<field name="UID" uuid="73DFD79218A34E3A88CFF97826A71EDA" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="1">
+			<field_extra multi_line="false">
+				<editor_field_info>
+					<color red="255" green="255" blue="255" alpha="0"/>
+				</editor_field_info>
+			</field_extra>
+		</field>
+		<field name="ts_UTC_Creation" uuid="D96BAB557F8F4067A234EE1284D6813B" type="4" never_null="true" id="2"/>
+		<field name="resourceName" uuid="C06F87E57E8C4EBCA3FB2590F59B3850" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="resourceType" uuid="0F1A1D1C50654780B7275B47B34C86C5" type="4" never_null="true" id="4"/>
+		<field name="j_languages" uuid="A41ED5EE792C4E04BBD689B719B8FC0B" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
+		<field name="isVerified" uuid="2FCB5426F6EC4C2D93C097B45E33E390" type="1" never_null="true" id="6"/>
+		<primary_key field_name="UID" field_uuid="73DFD79218A34E3A88CFF97826A71EDA"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="7">
+				<color red="226" green="158" blue="214" alpha="255"/>
+				<coordinates left="41.5103149414" top="84" width="167.56640625" height="208.65625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" uuid="89F2E716CE0F40C49BD1D7321BDBF541" type="3">
+		<field_ref uuid="A41ED5EE792C4E04BBD689B719B8FC0B" name="j_languages">
+			<table_ref uuid="0E19472CC88644D998A79E3A33B09380" name="WOD_TRANSLATIONS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="92C08E6853C64CC69041D1500DF107C9" type="7">
+		<field_ref uuid="C06F87E57E8C4EBCA3FB2590F59B3850" name="resourceName">
+			<table_ref uuid="0E19472CC88644D998A79E3A33B09380" name="WOD_TRANSLATIONS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A4E8504419BD4A28A8B2AB305ED6024F" type="7">
+		<field_ref uuid="D96BAB557F8F4067A234EE1284D6813B" name="ts_UTC_Creation">
+			<table_ref uuid="0E19472CC88644D998A79E3A33B09380" name="WOD_TRANSLATIONS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="ABE7A4BE8D36423D813A9CFC6659AE73" type="7">
+		<field_ref uuid="73DFD79218A34E3A88CFF97826A71EDA" name="UID">
+			<table_ref uuid="0E19472CC88644D998A79E3A33B09380" name="WOD_TRANSLATIONS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DC40F3176B284E32B12015AEF984E823" type="7">
+		<field_ref uuid="2FCB5426F6EC4C2D93C097B45E33E390" name="isVerified">
+			<table_ref uuid="0E19472CC88644D998A79E3A33B09380" name="WOD_TRANSLATIONS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="E97C623B0D304D5485035FF6E7577F50" type="7">
+		<field_ref uuid="0F1A1D1C50654780B7275B47B34C86C5" name="resourceType">
+			<table_ref uuid="0E19472CC88644D998A79E3A33B09380" name="WOD_TRANSLATIONS"/>
+		</field_ref>
+	</index>
 	<base_extra package_name="ogColors" structure_file_name="ogColors" data_file_path=":ogColors.4DD">
 		<journal_file journal_file_enabled="true"/>
 	</base_extra>
