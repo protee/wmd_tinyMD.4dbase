@@ -16,7 +16,7 @@ var $c4Fo_sf : 4D:C1709.Folder
 var $is_white_color; $is_white : Boolean
 var $vL_svg_scale; $vL_width; $vL_height; $vL_size; $vL_cx; $vL_stroke_color; $vL_fill_color; $vL_index_stroke; $vL_index_fill; $vL_stroke_rgb; $vL_fill_rgb; $vL_stroke_width; $vL_offset; $x9; $vL_cy; $vL_icon_width; $vL_color_rgb; $x; $vL_sf_width; $y; $vL_r; $vL_stroke; $vL_strokeD2 : Integer
 var $vO_thumbnail : Picture
-var $vT_svg_title; $vT_svg_root; $vT_shape_rendering; $vT_patt_none_name; $vT_colour_stroke; $vT_colour_txt; $vT_colour_fill; $vT_text; $vT_svg_stroke; $vT_RectRef; $vT_svg_fill; $vT_font_name; $vT_svg_txt; $vT_svg_sf; $vT_svg_b; $vT_tileRef : Text
+var $vT_svg_title; $vT_svg_root; $vT_shape_rendering; $vT_patt_none_name; $vT_colour_stroke; $vT_colour_txt; $vT_colour_fill; $vT_text; $vT_svg_stroke; $vT_RectRef; $vT_svg_fill; $vT_font_face; $vT_svg_txt; $vT_svg_sf; $vT_svg_b; $vT_tileRef : Text
 
 $vL_svg_scale:=wmd__storage_prefs.l_svg_scale
 x_widthHeight_Object($vP_canvas; ->$vL_width; ->$vL_height; $vL_svg_scale)
@@ -78,8 +78,8 @@ End if
 // Fill part
 $vT_svg_fill:=SVG_New_group($vT_svg_root; "fill")
 $vT_RectRef:=SVG_New_rect($vT_svg_fill; 0; 0; $x9; $vL_height; 0; 0; k_none; $vT_colour_fill)
-$vT_font_name:="Lucida Grande"
-$vT_svg_txt:=SVG_New_text($vT_svg_fill; $vT_text; $vL_cx; $vL_cy-$vL_offset; $vT_font_name; $vL_size; Bold:K14:2; 3; $vT_colour_txt)
+$vT_font_face:=wox_font_face_default()
+$vT_svg_txt:=SVG_New_text($vT_svg_fill; $vT_text; $vL_cx; $vL_cy-$vL_offset; $vT_font_face; $vL_size; Bold:K14:2; 3; $vT_colour_txt)
 SVG_SET_TEXT_RENDERING($vT_svg_txt; "geometricPrecision")
 
 // SF icons

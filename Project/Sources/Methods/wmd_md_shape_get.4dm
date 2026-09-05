@@ -16,6 +16,7 @@ var $is_bkg_black : Boolean
 var $vL_dash; $vL_enablers; $vL_item_width; $vL_item_height; $vL_item_widthShift; $vL_item_heightShift; $x; $y; $vL_fill; $vL_radius; $vL_item_shift; $vL_padding; $vL_item_widthF; $vL_item_heightF; $vL_item_widthS; $vL_item_heightS; $vL_item_radiusF; $vL_item_radiusS; $vL_size : Integer
 var $vR_coefOnOff; $vR_cx; $vR_cy; $vR_radius_x; $vR_radius_y : Real
 var $vT_svg_root; $vT_shape_rendering; $vT_object; $vT_stroke_color_txt; $vT_fill_color_txt; $vT_color_tr_svg; $txt; $vT_idText : Text
+var $vT_font_face : Text
 
 $is_bkg_black:=False:C215
 
@@ -177,7 +178,8 @@ If ($vL_shape<0)
 					$vT_object:=SVG_New_circle($vT_svg_root; $vR_cx; $vR_cy; $vL_item_radiusS; $vT_color_tr_svg; "none"; 1)
 					SVG_SET_STROKE_DASHARRAY($vT_object; $vL_dash)
 				Else 
-					$vT_idText:=SVG_New_text($vT_svg_root; $txt; $vR_cx; $vR_cy-($vL_size*k_fontOffset_coef); ""; $vL_size; Bold:K14:2; 3; $vT_stroke_color_txt)
+					$vT_font_face:=wox_font_face_default()
+					$vT_idText:=SVG_New_text($vT_svg_root; $txt; $vR_cx; $vR_cy-($vL_size*k_fontOffset_coef); $vT_font_face; $vL_size; Bold:K14:2; 3; $vT_stroke_color_txt)
 					SVG_SET_TEXT_RENDERING($vT_idText; "geometricPrecision")
 				End if 
 			End if 

@@ -75,7 +75,6 @@ Case of
 			$vT_label:=$is_separator ? "-" : $vT_label
 			If ($is_separator)
 				APPEND MENU ITEM:C411($vT_refMenu; "-")
-				
 			Else 
 				$is_valid:=$vJ_menu.is_valid
 				$c4Fu_method:=$vJ_menu.fu_method

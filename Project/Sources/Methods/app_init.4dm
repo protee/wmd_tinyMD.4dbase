@@ -18,7 +18,7 @@ $vJ_prefs:=wmd__storage_prefs
 Use ($vJ_prefs)
 	$vJ_prefs.t_name:="wmd_tinyMD"
 	$vJ_prefs.t_app:="wmd"  // For ogMake also ↴
-	$vJ_prefs.t_version:="21.1.00"
+	$vJ_prefs.t_version:="21.1.01"
 	$vJ_prefs.fo_rsc:=Folder:C1567(fk resources folder:K87:11)
 	$vJ_prefs.is_free:=True:C214  // Always displays licensed ogKrolific
 	
